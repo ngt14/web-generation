@@ -48,7 +48,7 @@
 	<section id="omeni">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-md-6 animated slideInLeft">
+          <div class="col-sm-8 col-md-6 col-sm-offset-7" animated slideInLeft">
             <div class="row">
               <div class="col-lg-8">
                 <h2>Gamme premium</h2>

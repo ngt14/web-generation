@@ -6,7 +6,7 @@
   <span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
     
   </button>
-      <a class="navbar-brand" href="#">Web-G&eacute;n&eacute;ration</a>
+      <a class="navbar-brand" href="index.php">Web-G&eacute;n&eacute;ration</a>
     </div>
     <div class="collapse navbar-collapse" id="navMain">
       <ul class="nav navbar-nav pull-right">

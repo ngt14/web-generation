@@ -1,6 +1,7 @@
 <?php
-	/*$msg = 'demandeur : '.$_POST["name"].' / adresse mail : '.$_POST["email"].' / msg : '.$_POST["msg"];
-	$to = "pierre.thiebert@outlook.fr";
+	$msg = 'demandeur : '.$_POST["name"].' / Type : '.$_POST["type"].' / adresse mail : '.$_POST["email"].' / msg : '.$_POST["msg"];
+	
+	/*$to = "pierre.thiebert@outlook.fr";
 	$subject = "Demande de devis";
 
 	$message=$msg;

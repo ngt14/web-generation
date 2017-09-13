@@ -10,15 +10,16 @@
   </head>
   <body>
 	<?php include 'header.php';?>
-  <section id="bestof">
+	<section id="bestof">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
+          <div class="col-sm-8 col-sm-offset-2" style="height:20%;">
+		  &nbsp;
           </div>
         </div>
       </div>
     </section>
-	 <section id="omeni">
+	 <section style="background-color: rgba(0, 0, 0, 0.5); color:white;">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-6 animated slideInLeft">
@@ -35,7 +36,7 @@
 				Nous vous proposons une analyse suivie de mise en place d'outils afin d'augmenter votre place dans les résuultats google ou autre moteur de recherche.
 			</h4>
             <h4>
-              <a href="details.php?choix=f"><button type="button" class="btn btn-secondary">Faire un devis</button></a>
+              <a href="devis.php?choix=c"><button type="button" class="btn btn-secondary">Faire un devis</button></a>
             </h4>
           </div><!--col-->
         </div><!--row-->
@@ -44,7 +45,7 @@
 	  <section id="bestof">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-md-6 animated slideInLeft" style="height : 40%;">
+          <div class="col-sm-8 col-md-6 animated slideInLeft" style="height : 15%;">
 			&nbsp;
           </div>
         </div>

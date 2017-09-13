@@ -157,7 +157,19 @@ form input[type="submit"]:focus {
     <h1>Demande de devis</h1>
     
     <form action="mail.php" method="post">
-		<?php /* Faire un hidden avec le type de devis pour l'envoie en page suivante */?>
+	
+		<?php if($_GET["choix"] == "s"){ ?>
+			<input type="hidden" name="type" value="s" />
+		<?php }elseif($_GET["choix"] == "p"){?>
+			<input type="hidden" name="type" value="p" />
+		<?php }elseif($_GET["choix"] == "r"){?>
+			<input type="hidden" name="type" value="r" />
+		<?php }elseif($_GET["choix"] == "c"){?>
+			<input type="hidden" name="type" value="c" />
+		<?php } ?>
+		
+		
+		
 	      <div class="field name-box">
 		        <input type="text" id="name" name="name" placeholder="Votre nom prénom ou entreprise"/>
         		<label for="name">Nom</label>

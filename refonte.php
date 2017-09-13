@@ -10,15 +10,16 @@
   </head>
   <body>
 	<?php include 'header.php';?>
-  <section id="bestof">
+	<section id="bestof">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
+          <div class="col-sm-8 col-sm-offset-2" style="height:25%;">
+		  &nbsp;
           </div>
         </div>
       </div>
     </section>
-	 <section id="omeni">
+	 <section style="background-color: rgba(0, 0, 0, 0.5); color:white;">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-6 animated slideInLeft">
@@ -34,17 +35,16 @@
               &Agrave; partir de 500€, offrez vous un site moderne et au gout du jour.
             </h4>
             <h4>
-              <a href="details.php?choix=r"><button type="button" class="btn btn-secondary">Faire un devis</button></a>
+              <a href="devis.php?choix=r"><button type="button" class="btn btn-secondary">Faire un devis</button></a>
             </h4>
           </div><!--col-->
         </div><!--row-->
       </div><!--container-->
-    </section>
-	  <section id="bestof">
+    <section id="bestof">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-md-6 animated slideInLeft" style="height : 40%;">
-			&nbsp;
+          <div class="col-sm-8 col-sm-offset-2" style="height:25%;">
+		  &nbsp;
           </div>
         </div>
       </div>

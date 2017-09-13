@@ -9,6 +9,15 @@
 	<script type="text/javascript" src="script.js"></script>
   </head>
   <body>
+	<section id="bestof">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2" style="height:15%;">
+		  &nbsp;
+          </div>
+        </div>
+      </div>
+    </section>
 	<?php include 'header.php';
 		$choix = $_GET['choix'];
 		if($choix == "s"){
@@ -36,7 +45,7 @@
 				Dans cette gamme, vous pouvez personnaliser votre site du début à la fin, vous serez un acteur principal de la cr&eacute;ation. Choissisez le nombre de pages que vous desirez, les images voulues, le texte...etc. <strong>c'est votre site</strong>
 			</h4>
 			<h4>
-				Faites une demande de devis en ligne en moins de 5min et recevez-le rapidement par mail. 
+				&Agrave; partir de 500€, faites une demande de devis en ligne en moins de 2min et recevez-le rapidement par mail. 
 			</h4>
 			<h4>
 				<a href="devis.php?choix=s"><button type="button" class="btn btn-secondary">Faire mon devis</button></a>
@@ -54,7 +63,7 @@
           <div class="col-sm-8 col-md-6 animated slideInLeft">
             <div class="row">
               <div class="col-lg-8">
-                <h2>Gamme standard</h2>
+                <h2>Gamme premium</h2>
               </div><!--col-->
             </div><!--row-->
             <h3>
@@ -70,10 +79,10 @@
 				Dans cette gamme, vous pouvez personnaliser votre site du début à la fin, vous serez un acteur principal de la cr&eacute;ation. Vous pourrez ajouter des pages, des modules type "Contacter-nous" ou toutes autre chose.
 			</h4>
 			<h4>
-				Faites une demande de devis en ligne en moins de 5min et recevez-le rapidement par mail. 
+				&Agrave; partir de 1000€, Faites une demande de devis en ligne en moins de 2min et recevez-le rapidement par mail. 
 			</h4>
 			<h4>
-				<a href="devis.php?choix=s"><button type="button" class="btn btn-secondary">Faire mon devis</button></a>
+				<a href="devis.php?choix=p"><button type="button" class="btn btn-secondary">Faire mon devis</button></a>
 			</h4>
 		  </div><!--col-->
         </div><!--row-->
@@ -81,5 +90,14 @@
     </section>
 	
 	<?php } ?>
+	<section id="bestof">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2" style="height:15%;">
+		  &nbsp;
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
