@@ -77,13 +77,13 @@
 
     /*-------------add sticky class----------------*/
         $(window).on('scroll',function(){
-            if($(this).scrollTop() > 50){
-
-                $('.navigation_area').addClass('sticky');
+            if($(this).scrollTop() > 50)
+            {              
+              $('.navigation_area').addClass('sticky');
             }
             else
             {
-                $('.navigation_area').removeClass('sticky');
+              $('.navigation_area').removeClass('sticky');
             }
 
         });
@@ -190,7 +190,16 @@ function sendMail()
 	var mail = $("#mail").val();
 	var msg = $("#contact_message").val();
 	var MailMsg = type + " / "+ nom + " / "+mail+" / "+msg;
-	retourMail(type);
+		$.ajax({
+		type: "POST",
+		url: 'devis.php',
+		dataType: 'json',
+		data: {mail: mail, msg: msg},
+		success: function (obj, textstatus) {
+			retourMail(type);
+		}
+	});
+
 }
 
 function retourMail(type){
